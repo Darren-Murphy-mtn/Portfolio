@@ -1,3 +1,4 @@
+"use client";
 import { useState } from 'react';
 import SlashTile from './SlashTile';
 import Modal from './Modal';

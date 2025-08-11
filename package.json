@@ -24,7 +24,7 @@
     "eslint": "8.57.0",
     "eslint-config-next": "14.1.0",
     "prettier": "3.2.5",
-    "eslint-plugin-tailwindcss": "3.13.3",
+    "eslint-plugin-tailwindcss": "^3.18.2",
     "next-sitemap": "5.7.0"
   }
 }

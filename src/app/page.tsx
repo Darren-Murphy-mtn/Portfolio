@@ -9,7 +9,7 @@ export default function HomePage() {
     <main>
       {/* Hero */}
       <section id="hero" className="flex min-h-[70vh] flex-col items-center justify-center text-center">
-        <h1 className="text-4xl font-semibold sm:text-5xl lg:text-6xl">Hi, I'm Darren Murphy</h1>
+        <h1 className="text-4xl font-semibold sm:text-5xl lg:text-6xl">Hi, I&#39;m Darren Murphy</h1>
         <p className="mt-4 text-lg text-muted">Full-stack developer & mountain enthusiast</p>
         <div className="mt-8 flex gap-4">
           <a href="#projects" className="flex items-center gap-2 rounded bg-accentProject px-5 py-3 font-medium text-white hover:bg-accentProject/90 focus-visible:outline focus-visible:outline-2">

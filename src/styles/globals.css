@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #ffffff;
+  --color-fg: #0f172a;
+  --color-muted: #94a3b8;
+  --color-accent-project: #2563eb; /* blue */
+  --color-accent-expedition: #16a34a; /* green */
+}
+
+.dark {
+  --color-bg: #0f172a;
+  --color-fg: #f1f5f9;
+  --color-muted: #64748b;
+  --color-accent-project: #3b82f6;
+  --color-accent-expedition: #4ade80;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-background text-foreground antialiased;
+}

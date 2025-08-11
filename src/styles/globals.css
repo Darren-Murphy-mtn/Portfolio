@@ -25,3 +25,12 @@ html {
 body {
   @apply bg-background text-foreground antialiased;
 }
+
+/* Reduced motion: disable transitions/animations for users preferring less motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}

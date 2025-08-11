@@ -14,7 +14,7 @@ export const projects: Project[] = [
     label: 'Personal Portfolio Website',
     summary: 'A polished, responsive portfolio built with Next.js and Tailwind CSS.',
     tags: ['Next.js', 'Tailwind', 'TypeScript'],
-    images: ['portfolio-1.png', 'portfolio-2.png'],
+    images: ['headshotUse.jpg', ''],
     links: { github: 'https://github.com/Darren-Murphy-mtn/Portfolio', demo: 'https://portfolio-gray-rho-15.vercel.app' }
   },
   {
